@@ -1,2 +1,0 @@
-# bluedinosaur
-Blue Dinosaur Animation
