@@ -92,7 +92,7 @@ I encountered an issue of the app missing manage.py so I added the following => 
 
 Now create a Super User for the Admin Panel.
 
-  => python manage.py create_superuser
+  => python manage.py createsuperuser
 
 Add your name, email address and create a password. Write this down and keep it safe or just memorise it.
 
