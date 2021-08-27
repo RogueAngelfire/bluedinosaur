@@ -59,6 +59,27 @@ body {
   background: blue !important;
 }
 
+footer {
+  background-color: blue;
+}
+
+span.text-muted {
+  color: white !important;
+  text-align: center;
+}
+/*
+ul.nav.col-md-4-justify-content-end.list-unstyled.d-flex {
+  color: white !important;
+}
+not working on the footer - break footer down and use font awesome icons as alternative
+svg.bi {
+  color: white !important;
+} */
+
+h1 {
+  padding: 30px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly Larger Container on xl screens */
