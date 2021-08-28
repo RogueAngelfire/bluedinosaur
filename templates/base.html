@@ -15,7 +15,7 @@
 
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">-->
+      <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">BOOTSTRAP5-->
       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="{% static 'css/base.css' %}">
       
@@ -31,7 +31,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>BOOTSTRAP5-->
     {% endblock %}
 
     {% block extra_js %}
@@ -41,10 +41,11 @@
   </head>
   <body>
     <header class="container-fluid fixed-top">
-      <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+      <div id="topnav" class="row bg-black pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-          <a href="{% url 'home' %}" class="nav-link main-logo-link"> <!-- Logo here -->
-            <h2 class="logo-font text-black my-0"><strong>Blue Dinosaur</strong> Animation</h2>
+          <a href="{% url 'home' %}" class="nav-link main-logo-link">
+            
+            <h2 class="logo-font text-black my-0"><strong><img src="/media/bluedinosaurhead.jpg" alt="dino head" id="bdlogo">Blue Dinosaur</strong> Animation</h2>
           </a>
         </div>
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -103,7 +104,7 @@
       </div>
       <div class="row bg-white">
         <nav class="navbar navbar-expand-lg navbar-light w-100">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" id="toggler"> <!--ADDED ID-->
               <span class="navbar-toggler-icon"></span>
           </button>
           {% include 'includes/mobile-top-header.html' %}

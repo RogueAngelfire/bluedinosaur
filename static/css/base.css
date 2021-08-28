@@ -18,23 +18,50 @@ body {
   width: 1.5rem;
 }
 
+/* --------------------------------- Logo Text */
+
+h2.logo-font.text-black.my-0 {
+  color: #549dfa !important;
+  text-shadow: 2px 2px 2px #171aff, 0 0 1px darkblue;
+}
+
+/* --------------------------------- Hero Banner Text */
+
+h1.display-4.logo-font.text-blue {
+  color: #549dfa !important;
+}
+
 .logo-font {
   text-transform: uppercase;
+}
+
+/* --------------------------------- Logo Image */
+
+#bdlogo {
+  width: 30%;
 }
 
 .main-logo-link {
   width: fit-content;
 }
 
+/* -------------------------------- Navigation for mobile */
+
+#toggler {
+  color: red !important; /* Not Showing up */
+}
+
 .shop-now-button {
-  background: blue;
+  background: #549dfa !important;
+  /*border: #171aff !important; Fix this border as goes missing rather than displays*/
   color: white;
   min-width: 260px;
 }
 
 .btn-black {
-  background: blue;
+  background: #549dfa;
   color: white;
+  border: #171aff;
 }
 
 .shop-now-button:hover,
@@ -43,41 +70,45 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-  background: rgb(75, 75, 230);
+  background: #171aff !important;
   color: white;
 }
 
 .text-black {
-  color: #000 !important;
+  color: #549dfa !important;
 }
 
 .border-black {
-  border: 1px solid black !important;
+  border: 1px solid #171aff !important;
 }
+/* -------------------------------- Title Banner */
 
 .bg-black {
-  background: blue !important;
+  background: #050505 !important;
 }
 
-footer {
-  background-color: blue;
+nav.navbar.navbar-expand-lg.navbar-light.w-100 {
+  background: #050505 !important; /* Causing a conflick to burger menu */
 }
 
-span.text-muted {
-  color: white !important;
-  text-align: center;
+div.col.bg-black.text-white {
+  background: #549dfa !important;
 }
-/*
-ul.nav.col-md-4-justify-content-end.list-unstyled.d-flex {
-  color: white !important;
+
+#footer {
+  background-color: #549dfa !important;
 }
-not working on the footer - break footer down and use font awesome icons as alternative
-svg.bi {
-  color: white !important;
-} */
+
+i.fab.fa-facebook.text-white::before {
+  padding: 10px;
+}
 
 h1 {
   padding: 30px;
+}
+
+.footer {
+  background-color: #549dfa !important;
 }
 
 /* -------------------------------- Media Queries */
