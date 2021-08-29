@@ -31,6 +31,13 @@ a.text-black.nav-link {
   color: #fff !important;
 }
 
+
+/* Dropdown menu requires attention
+div.dropdown-menu.border-0.show {
+  background-color:#4c0909;
+  color: #fff!important;
+} */
+
 /* --------------------------------- Logo Text */
 
 h2.logo-font.text-black.my-0 {
@@ -63,6 +70,30 @@ h1.display-4.logo-font.text-blue {
 
 #toggler {
   color: red !important; /* Not Showing up */
+}
+
+/* -------------------------------- toggler attempt 2 FAILED*/
+
+div.dropdown-menu.border-0.show {
+  color: #fff !important;
+}
+
+/* ----------------------------- Toggler test 3 FAILED*/
+
+button#toggler.navbar-toggler {
+  color: #fff !important;
+}
+
+/* ----------------------------- Toggler test 4 Failed */
+
+span.navbar-toggler-icon {
+  color: #fff !important;
+}
+
+/* ----------------------------- Burger menu Dropdown */
+
+nav.navbar.navbar-expand-lg.navbar-light.w-100 {
+  color: black !important;
 }
 
 .shop-now-button {
