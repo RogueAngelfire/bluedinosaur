@@ -18,6 +18,19 @@ body {
   width: 1.5rem;
 }
 
+/* --------------------------------- Icon account */
+
+a#user-options.text-black.nav-link {
+  color: #fff !important;
+}
+
+
+/* -------------------------------- Navigation and Basket colours */
+
+a.text-black.nav-link {
+  color: #fff !important;
+}
+
 /* --------------------------------- Logo Text */
 
 h2.logo-font.text-black.my-0 {
@@ -28,7 +41,8 @@ h2.logo-font.text-black.my-0 {
 /* --------------------------------- Hero Banner Text */
 
 h1.display-4.logo-font.text-blue {
-  color: #549dfa !important;
+  color: #fff !important;
+  padding: 30px;
 }
 
 .logo-font {
@@ -52,16 +66,16 @@ h1.display-4.logo-font.text-blue {
 }
 
 .shop-now-button {
-  background: #549dfa !important;
+  background: #4c0909 !important;
   /*border: #171aff !important; Fix this border as goes missing rather than displays*/
   color: white;
   min-width: 260px;
 }
 
 .btn-black {
-  background: #549dfa;
+  background: #4c0909;
   color: white;
-  border: #171aff;
+  border: #4c0909;
 }
 
 .shop-now-button:hover,
@@ -70,7 +84,7 @@ h1.display-4.logo-font.text-blue {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-  background: #171aff !important;
+  background: #3a0202 !important;
   color: white;
 }
 
@@ -91,12 +105,17 @@ nav.navbar.navbar-expand-lg.navbar-light.w-100 {
   background: #050505 !important; /* Causing a conflick to burger menu */
 }
 
+
+/* ------------------------------------ Banner */
+
 div.col.bg-black.text-white {
-  background: #549dfa !important;
+  background: #4c0909 !important;
 }
 
+/* -------------------------------- Footer */
+
 #footer {
-  background-color: #549dfa !important;
+  background-color: #4c0909 !important;
 }
 
 i.fab.fa-facebook.text-white::before {
@@ -106,6 +125,8 @@ i.fab.fa-facebook.text-white::before {
 h1 {
   padding: 30px;
 }
+
+/* ------------------------------ Footer contiuned - Tidy code */
 
 .footer {
   background-color: #549dfa !important;
