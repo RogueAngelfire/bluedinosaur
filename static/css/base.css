@@ -68,29 +68,13 @@ h1.display-4.logo-font.text-blue {
 
 /* -------------------------------- Navigation for mobile */
 
-#toggler {
-  color: red !important; /* Not Showing up */
-}
-
-/* -------------------------------- toggler attempt 2 FAILED*/
-
-div.dropdown-menu.border-0.show {
-  color: #fff !important;
-}
-
-/* ----------------------------- Toggler test 3 FAILED*/
-
-button#toggler.navbar-toggler {
-  color: #fff !important;
-}
-
-/* ----------------------------- Toggler test 4 Failed */
+/* ----------------------------- Toggler test Fixed */
 
 span.navbar-toggler-icon {
-  color: #fff !important;
+  background-color: #fff !important;
 }
 
-/* ----------------------------- Burger menu Dropdown */
+/* ----------------------------- Burger menu Dropdown WORKING*/
 
 nav.navbar.navbar-expand-lg.navbar-light.w-100 {
   color: black !important;
