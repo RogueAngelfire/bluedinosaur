@@ -14,12 +14,12 @@
     </li>
 
     <li class="nav-item dropdown">
-      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="about-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'about' %}" id="about-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         About
       </a>
       <!-- Second Navigation requires less navigation also -->
       <div class="dropdown-menu border-0" aria-labelleby="about-link">
-        <a href="" class="dropdown-item">History</a>
+        <a href="{% url 'about' %}" class="dropdown-item">History</a>
         <a href="" class="dropdown-item">Portfolio</a>
         <a href="" class="dropdown-item">Menu7</a>
         <a href="" class="dropdown-item">Menu8</a>
