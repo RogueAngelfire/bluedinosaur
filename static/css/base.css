@@ -127,6 +127,19 @@ div.col.bg-black.text-white {
   background: #4c0909 !important;
 }
 
+
+/* -------------------------------- Over Lay for about and contact pages */
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: white; /* Change this to black */
+  z-index: -1;
+}
+
 /* -------------------------------- Footer */
 
 #footer {
