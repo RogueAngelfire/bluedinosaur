@@ -1,42 +1,20 @@
 <div class="collapse navbar-collapse" id="main-nav">
   <ul class="navbar-nav w-auto mx-auto">
-    <li class="nav-item dropdown">
-      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="home-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <li class="nav-item">
+      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}">
         Home
       </a>
-      <!-- Client requires less navigation items remove accordingly -->
-      <div class="dropdown-menu border-0" aria-labelleby="home-link">
-        <a href="" class="dropdown-item">Menu1</a>
-        <a href="" class="dropdown-item">Menu2</a>
-        <a href="" class="dropdown-item">Menu3</a>
-        <a href="" class="dropdown-item">Menu4</a>
-      </div>
     </li>
-
-    <li class="nav-item dropdown">
-      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'about' %}" id="about-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <li class="nav-item">
+      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'about' %}">
         About
       </a>
-      <!-- Second Navigation requires less navigation also -->
-      <div class="dropdown-menu border-0" aria-labelleby="about-link">
-        <a href="{% url 'about' %}" class="dropdown-item">History</a>
-        <a href="" class="dropdown-item">Portfolio</a>
-        <a href="" class="dropdown-item">Menu7</a>
-        <a href="" class="dropdown-item">Menu8</a>
-      </div>
     </li>
 
-    <li class="nav-item dropdown">
-      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="contact-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <li class="nav-item">
+      <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'contact' %}">
         Contact
       </a>
-      <!-- 3rd Area reduce Navigation -->
-      <div class="dropdown-menu border-0" aria-labelleby="contact-link">
-        <a href="" class="dropdown-item">Message</a>
-        <a href="" class="dropdown-item">Meeting</a>
-        <a href="" class="dropdown-item">Quote</a>
-        <a href="" class="dropdown-item">Menu12</a>
-      </div>
     </li>
   </ul>
 </div>
