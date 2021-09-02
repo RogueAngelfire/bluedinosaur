@@ -133,29 +133,63 @@ div.col.bg-black.text-white {
 .overlay {
   height: 100%;
   width: 100%;
+  color: #fff !important;
   top: 0;
   left: 0;
   position: fixed;
-  background: white; /* Change this to black */
+  background: #000000;
   z-index: -1;
 }
 
 
 /* -------------------------------- About page */
 
+h2 {
+  color: #fff;
+}
+
 img#peter {
-  padding: 20px;
-  padding-bottom: 20px; /* Need padding a way from footer */
+  padding: 10px;
+  /* Need padding a way from footer */
   width: 50%;
   border: 6px solid transparent;
-  border-image:url(peter_puppet.png) 30 stretch;
+  border-image:url(peter_puppet.png) 15 stretch;
   border-color: #4c0909;
-  background-color: #000000;
+  background-color: #fff;
   color: #fff;
 }
 
 /* -------------------------------- Contact Page */
 
+ #fullname {
+   border-color:#4c0909;
+   margin-bottom: 20px;
+ }
+
+ #email {
+   margin-bottom: 20px;
+ }
+
+ #projectsummary {
+   margin-bottom: 20px;
+ }
+
+ form {
+   display: inline-block;
+   width: 50%;
+ }
+
+ button.btn.btn-secondary {
+   background-color: #4c0909;
+ }
+
+ i#facebookcontact.fab.fa-facebook.text-white::before {
+   font-size: 2.5em;
+ }
+
+ i#instacontact.fab.fa-instagram.text-white::before {
+   font-size: 2.5em;
+ }
 
 /* -------------------------------- Footer */
 
