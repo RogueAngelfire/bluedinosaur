@@ -140,6 +140,23 @@ div.col.bg-black.text-white {
   z-index: -1;
 }
 
+
+/* -------------------------------- About page */
+
+img#peter {
+  padding: 20px;
+  padding-bottom: 20px; /* Need padding a way from footer */
+  width: 50%;
+  border: 6px solid transparent;
+  border-image:url(peter_puppet.png) 30 stretch;
+  border-color: #4c0909;
+  background-color: #000000;
+  color: #fff;
+}
+
+/* -------------------------------- Contact Page */
+
+
 /* -------------------------------- Footer */
 
 #footer {
