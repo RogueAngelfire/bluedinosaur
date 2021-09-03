@@ -151,7 +151,7 @@ h2 {
 img#peter {
   padding: 10px;
   /* Need padding a way from footer */
-  width: 50%;
+  width: 80%;
   border: 6px solid transparent;
   border-image:url(peter_puppet.png) 15 stretch;
   border-color: #4c0909;
