@@ -52,6 +52,10 @@ h1.display-4.logo-font.text-blue {
   padding: 100px;
 }
 
+h3.logo-font {
+  color: #fff !important;
+}
+
 .logo-font {
   text-transform: uppercase;
 }
@@ -157,6 +161,18 @@ img#peter {
   border-color: #4c0909;
   background-color: #fff;
   color: #fff;
+}
+
+div.col {
+  color: #fff!important;
+}
+
+img#funke {
+  width: 30%;
+}
+
+img#sanity {
+  width: 46%;
 }
 
 /* -------------------------------- Contact Page */
