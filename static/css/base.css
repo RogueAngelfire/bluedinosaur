@@ -62,7 +62,29 @@ h3.logo-font {
 
 /* --------------------------------- Logo Image */
 
-#bdlogo {
+/*
+  .dinohead {
+  width: 100%;
+  height: 30px;
+  margin: 50px;
+  background: url("/media/bluedinosaurhead.jpg");
+}
+  
+  .dinohead:hover {
+    background: url("/media/bluedinosaur_logo_head_mo.jpg");
+} */
+
+
+img#bdlogo {
+  width: 15%;
+}
+
+img#bdlogomo {
+  width: 15%;
+}
+
+#bdlogo:hover {
+  background-image: url("/media/bluedinosaur_logo_head_mo.jpg");
   width: 15%;
 }
 
