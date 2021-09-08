@@ -154,7 +154,6 @@ h2 {
 
 img#peter {
   padding: 10px;
-  /* Need padding a way from footer */
   width: 80%;
   border: 6px solid transparent;
   border-image:url(peter_puppet.png) 15 stretch;
@@ -173,6 +172,23 @@ img#funke {
 
 img#sanity {
   width: 46%;
+}
+
+img#brutalist {
+  width: 30%;
+}
+
+img#stuart {
+  width: 30%;
+}
+
+h3.logo-font {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  padding-right: 40px;
 }
 
 /* -------------------------------- Contact Page */
@@ -233,6 +249,15 @@ h1 {
 @media (min-width: 1200px) {
   .container {
     max-width:80%;
+  }
+}
+
+/* -------------------------------- background image needs to change on smaller devices */
+
+@media (max-width: 480px) {
+  body {
+      background-image: url('/media/DinoWalkFront.gif');
+      background-size: cover;
   }
 }
 
