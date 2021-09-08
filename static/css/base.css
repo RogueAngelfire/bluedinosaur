@@ -254,7 +254,7 @@ h1 {
 
 /* -------------------------------- background image needs to change on smaller devices */
 
-@media (max-width: 480px) {
+@media (max-width: 990px) {
   body {
       background-image: url('/media/DinoWalkFront.gif');
       background-size: cover;
