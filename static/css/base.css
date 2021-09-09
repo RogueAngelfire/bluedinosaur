@@ -31,13 +31,6 @@ a.text-black.nav-link {
   color: #fff !important;
 }
 
-
-/* Dropdown menu requires attention
-div.dropdown-menu.border-0.show {
-  background-color:#4c0909;
-  color: #fff!important;
-} */
-
 /* --------------------------------- Logo Text */
 
 h2.logo-font.text-black.my-0 {
@@ -62,34 +55,8 @@ h3.logo-font {
 
 /* --------------------------------- Logo Image */
 
-/*
-  .dinohead {
-  width: 100%;
-  height: 30px;
-  margin: 50px;
-  background: url("/media/bluedinosaurhead.jpg");
-}
-  
-  .dinohead:hover {
-    background: url("/media/bluedinosaur_logo_head_mo.jpg");
-} */
-
-
-/*img#bdlogo {
+img#bdlogo {
   width: 15%;
-}
-
-img#bdlogomo {
-  width: 15%;
-}
-
-#bdlogo:hover {
-  background-image: url("/media/bluedinosaur_logo_head_mo.jpg");
-  width: 15%;
-}
-
-.main-logo-link {
-  width: fit-content;
 }
 
 /* -------------------------------- Navigation for mobile */
@@ -100,14 +67,14 @@ span.navbar-toggler-icon {
   background-color: #fff !important;
 }
 
-/* ----------------------------- Burger menu Dropdown WORKING*/
+/* ----------------------------- Burger menu Dropdown */
 
 nav.navbar.navbar-expand-lg.navbar-light.w-100 {
   color: black !important;
 }
 
 .shop-now-button {
-  background: #4c0909 !important;
+  background: #09234c !important;
   /*border: #171aff !important; Fix this border as goes missing rather than displays*/
   color: white;
   min-width: 260px;
@@ -143,7 +110,7 @@ nav.navbar.navbar-expand-lg.navbar-light.w-100 {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.w-100 {
-  background: #050505 !important; /* Causing a conflick to burger menu */
+  background: #050505 !important;
 }
 
 
@@ -170,8 +137,10 @@ div.col.bg-black.text-white {
 
 /* -------------------------------- About page */
 
-h2 {
+h2#aboutTitle.logo-font {
   color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 img#peter {
@@ -215,6 +184,12 @@ p {
 
 /* -------------------------------- Contact Page */
 
+h2#contactTitle.logo-font {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
  #fullname {
    border-color:#4c0909;
    margin-bottom: 20px;
@@ -243,6 +218,14 @@ p {
 
  i#instacontact.fab.fa-instagram.text-white::before {
    font-size: 2.5em;
+ }
+ 
+ p {
+   padding-top: 20px;
+ }
+
+ i {
+   padding-left: 10px;
  }
 
 /* -------------------------------- Footer */
