@@ -21,10 +21,10 @@
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-color-three-reasons section-column">
                   <div class="col">
                       <div class="center-form">
-                        <form onsubmit="return sendMail(this);">
+                        <form onsubmit="return sendMail(this);"> <!--method="POST" removed to allow current function-->
                           <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                           <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
-                          <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project Description" required></textarea>
+                          <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project Description or Message" required></textarea>
                           <div class="form-row text-center">
                           <div class="col">
                             <button type="submit" class="btn btn-secondary">Submit Request</button>

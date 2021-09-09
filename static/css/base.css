@@ -117,7 +117,7 @@ nav.navbar.navbar-expand-lg.navbar-light.w-100 {
 /* ------------------------------------ Banner */
 
 div.col.bg-black.text-white {
-  background: #4c0909 !important;
+  background: #09234c !important;
 }
 
 
@@ -148,7 +148,7 @@ img#peter {
   width: 80%;
   border: 6px solid transparent;
   border-image:url(peter_puppet.png) 15 stretch;
-  border-color: #4c0909;
+  border-color: #09234c;
   background-color: #fff;
   color: #fff;
 }
@@ -209,7 +209,7 @@ h2#contactTitle.logo-font {
  }
 
  button.btn.btn-secondary {
-   background-color: #4c0909;
+   background-color: #09234c;
  }
 
  i#facebookcontact.fab.fa-facebook.text-white::before {
@@ -231,7 +231,7 @@ h2#contactTitle.logo-font {
 /* -------------------------------- Footer */
 
 #footer {
-  background-color: #4c0909 !important;
+  background-color: #09234c !important;
 }
 
 i.fab.fa-facebook.text-white::before {
