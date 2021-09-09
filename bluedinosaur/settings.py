@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'about',
     'contact',
+    'embed_video',
 ]
 
 MIDDLEWARE = [

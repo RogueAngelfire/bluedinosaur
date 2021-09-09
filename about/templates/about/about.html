@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+<!-- {% load embed_video_tags %} Function not working well -->
 
 {% block page_header %}
 
@@ -18,10 +19,6 @@
         <h2 class="logo-font" id="aboutTitle">About Blue Dinosaur Animation</h2>
       </div>
     </div>
-    <!--<div class="row">
-      <img src="/media/peter_puppets.png" alt="Peter and friend" id="peter">
-    </div>
-  </div>-->
   <div class="container-fluid">
     <div class="row">
       <div class="col"><img class="mx-auto d-block" src="/media/peter_puppets.png" alt="Peter and friends" id="peter"></div>
@@ -39,12 +36,33 @@
         </p>
        
         </div>
+
+        <!--Test-->
+        <div class="w-100"></div>
+      <div>
+      <div class="col text-center">
+        <h3 class="logo-font">Portfolio</h3>
+        <!--{% for i in obj %}
+          {% video i.video 'small' %}
+        {% endfor %}-->
+      </div>
+
+      <div class="row">
+        
+        
+        
+        
+        <div class="col text-center">
+
+        </div>
+        <div class="col text-center"><iframe width="325" height="249" src="https://www.youtube.com/watch?v=8tdvTAwBLwc" frameborder="0" allowfullscreen></iframe></div>
+        <div class="col text-center"><iframe width="325" height="249" src="https://www.youtube.com/watch?v=8tdvTAwBLwc" frameborder="0" allowfullscreen></iframe></div>
+        <div class="col text-center"><iframe width="325" height="249" src="https://www.youtube.com/watch?v=8tdvTAwBLwc" frameborder="0" allowfullscreen></iframe></div>
+        <div class="col text-center"><iframe width="325" height="249" src="https://www.youtube.com/watch?v=8tdvTAwBLwc" frameborder="0" allowfullscreen></iframe></div>
+      </div>
+        
       <div class="w-100"></div>
       <div>
-      <!--<div class="col text-center">
-        <h3 class="logo-font">Portfolio</h3> Move to own page
-      </div>-->
-
       <div class="col text-center">
         <h3 class="logo-font">Assignments Completed for the following</h3>
       </div>
