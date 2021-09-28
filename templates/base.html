@@ -17,6 +17,9 @@
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="{% static 'css/base.css' %}">
       
     {% endblock %}
@@ -53,11 +56,9 @@
           <a href="{% url 'home' %}" class="nav-link main-logo-link">
             
             <h2 class="logo-font text-black my-0">
-              <strong> <!-- class="dinohead"-->
+              <strong>
                 <img id="bdlogo" onmouseover="logoImageTwo()"
                 onmouseout="logoImageOne()" src="/media/bluedinosaurhead.jpg" width="15%" />
-                <!--<img src="/media/bluedinosaurhead.jpg" alt="dino head" id="bdlogo">-->
-                <!--<img src="/media/bluedinosaur_logo_head_mo.jpg" alt="dino head 2" id="bdlogomo">-->
                   Blue Dinosaur Animation
               </strong>
             </h2>

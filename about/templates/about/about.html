@@ -17,12 +17,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col text-center mt-3" style="margin-top: 75px !important; margin-bottom: 20px;">
-        <h2 class="logo-font" id="aboutTitle">About Blue Dinosaur Animation</h2>
+        <h2 class="logo-font" id="aboutTitle" style="margin-top: 75px;">About Blue Dinosaur Animation</h2>
       </div>
     </div>
   </div>
 <!-- Second section -->
-  <div class="container-fluid" style="margin-top: 130px !important;">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6">
         <img class="mx-auto d-block" src="/media/peter_puppets.png" alt="Peter and friends" id="peter">
@@ -44,9 +44,6 @@
       <div class="col-sm-12 text-center">
         <h3 class="logo-font">Portfolio</h3>
         <p style="color: white !important;">Here is a selection of my recent projects.</p>
-        <!--{% for i in obj %}
-          {% video i.video 'small' %}
-        {% endfor %}-->
       </div>
     </div>
   </div>
@@ -74,15 +71,15 @@
   </div>
 
   <div class="row mb-5">
-        <div class="col text-center"><img src="/media/clients/funkelogo.jpg" alt="Funke" id="funke"></div>
-        <div class="col text-center"><img src="/media/clients/sant.png" alt="Sanitarium" id="sanity"></div>
-        <div class="col text-center"><img src="/media/clients/stuart_turner_andtheflatES.png" alt="Stuart Turner and the Flat Earth Society" id="stuart"></div>
-        <div class="col text-center"><img src="/media/clients/brutalist_architecture_in_the_sun.jpg" alt="Brutalist Architecture in the Sun" id="brutalist"></div>
+        <div class="col text-center" style="margin-bottom: 75px;"><img src="/media/clients/funkelogo.jpg" alt="Funke" id="funke"><p>Funky and the Two Tone Baby</p></div>
+        <div class="col text-center" style="margin-bottom: 75px;"><img src="/media/clients/sant.png" alt="Sanitarium" id="sanity"><p>Sanitarium</p></div>
+        <div class="col text-center" style="margin-bottom: 75px;"><img src="/media/clients/stuart_turner_andtheflatES.png" alt="Stuart Turner and the Flat Earth Society" id="stuart"><p>Stuart Turner and the Flat Earth Society</p></div>
+        <div class="col text-center" style="margin-bottom: 75px;"><img src="/media/clients/brutalist_architecture_in_the_sun.jpg" alt="Brutalist Architecture in the Sun" id="brutalist"><p>Brutalist Architecture in the Sun</p></div>
       </div>
       
     </div>
 
     <div style="color: black!important;">
-      Gap Here <!-- This fixed the issue -->
+      Gap Here <!-- This fixed the issue regarding spacing at bottom of the page-->
     </div>
 {% endblock %}
