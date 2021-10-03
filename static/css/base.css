@@ -1,7 +1,7 @@
 
 body {
+  background-size: cover !important;
   background: url('/media/Dinosaurwalk1.gif') no-repeat center center fixed;
-  background-size: cover;
   height: calc(100vh - 164px);
   color: #555;
   font-family: lato;
@@ -14,6 +14,12 @@ body {
   justify-content: center;
   height: 1.5tem;
   width: 1.5rem;
+}
+
+/* --------------------------------- Header-section */
+
+#header-section {
+  height: 3vh;
 }
 
 /* --------------------------------- Icon account */
