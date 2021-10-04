@@ -28,7 +28,7 @@ SECRET_KEY = '#yv55gwq21j0^go#jtl#o9283c6iobf)e90b58rnv_&eiw=gj3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blue-dinosaur-animation.heroku.app.com', 'localhost']
+ALLOWED_HOSTS = ['blue-dinosaur-animation.herokuapp.com', 'localhost']
 
 
 # Application definition
