@@ -43,6 +43,10 @@ h2.logo-font.text-black.my-0 {
   text-shadow: 2px 2px 2px #171aff, 0 0 1px darkblue;
 }
 
+#logo-text {
+  text-shadow: 2px 2px 2px #171aff, 0 0 1px darkblue;
+}
+
 /* --------------------------------- Hero Banner Text */
 
 h1.display-4.logo-font.text-blue {
@@ -149,13 +153,13 @@ h2#aboutTitle.logo-font {
 }
 
 img#peter {
-  padding: 10px;
+  /*padding: 10px;*/
   width: 80%;
   border: 6px solid transparent;
   border-image:url(peter_puppet.png) 15 stretch;
   border-color: #09234c;
-  background-color: #fff;
-  color: #fff;
+  /*background-color: #fff;
+  color: #fff;*/
 }
 
 div.col {
