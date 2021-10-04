@@ -1,0 +1,1 @@
+web: gunicorn bluedinosaur.wsgi:application

@@ -23,6 +23,7 @@ draftjs-exporter==2.1.7
 env==0.1.0
 et-xmlfile==1.0.1
 filelock==3.0.12
+gunicorn==20.1.0
 html5lib==1.1
 idna==2.10
 include==0.2.2
