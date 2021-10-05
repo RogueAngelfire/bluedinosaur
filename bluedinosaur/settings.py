@@ -162,7 +162,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
-# Is this required?
+# Is this required? No
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATIC_FILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
