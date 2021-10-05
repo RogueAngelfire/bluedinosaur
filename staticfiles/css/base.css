@@ -1,0 +1,296 @@
+
+body {
+  background-size: cover !important;
+  background: url('/media/Dinosaurwalk1.gif') no-repeat center center fixed;
+  height: calc(100vh - 164px);
+  color: #555;
+  font-family: lato;
+}
+
+/* from Bulma */
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5tem;
+  width: 1.5rem;
+}
+
+/* --------------------------------- Header-section */
+
+#header-section {
+  height: 3vh;
+}
+
+/* --------------------------------- Icon account */
+
+a#user-options.text-black.nav-link {
+  color: #fff !important;
+}
+
+
+/* -------------------------------- Navigation and Basket colours */
+
+a.text-black.nav-link {
+  color: #fff !important;
+}
+
+/* --------------------------------- Logo Text */
+
+h2.logo-font.text-black.my-0 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #549dfa !important;
+  text-shadow: 2px 2px 2px #171aff, 0 0 1px darkblue;
+}
+
+#logo-text {
+  text-shadow: 2px 2px 2px #171aff, 0 0 1px darkblue;
+}
+
+/* --------------------------------- Hero Banner Text */
+
+h1.display-4.logo-font.text-blue {
+  color: #fff !important;
+  padding: 100px;
+}
+
+h3.logo-font {
+  color: #fff !important;
+}
+
+.logo-font {
+  text-transform: uppercase;
+}
+
+/* --------------------------------- Logo Image */
+
+img#bdlogo {
+  width: 15%;
+}
+
+/* -------------------------------- Navigation for mobile */
+
+/* ----------------------------- Toggler test Fixed */
+
+span.navbar-toggler-icon {
+  background-color: #fff !important;
+}
+
+/* ----------------------------- Burger menu Dropdown */
+
+nav.navbar.navbar-expand-lg.navbar-light.w-100 {
+  color: black !important;
+}
+
+.shop-now-button {
+  background: #09234c !important;
+  /*border: #171aff !important; Fix this border as goes missing rather than displays*/
+  color: white;
+  min-width: 260px;
+}
+
+.btn-black {
+  background: #4c0909;
+  color: white;
+  border: #4c0909;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+  background: #3a0202 !important;
+  color: white;
+}
+
+.text-black {
+  color: #549dfa !important;
+}
+
+.border-black {
+  border: 1px solid #171aff !important;
+}
+/* -------------------------------- Title Banner */
+
+.bg-black {
+  background: #050505 !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.w-100 {
+  background: #050505 !important;
+}
+
+
+/* ------------------------------------ Banner */
+
+div.col.bg-black.text-white {
+  background: #09234c !important;
+}
+
+
+/* -------------------------------- Over Lay for about and contact pages */
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  color: #fff !important;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: #000000;
+  z-index: -1;
+}
+
+
+/* -------------------------------- About page */
+
+h2#aboutTitle.logo-font {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+img#peter {
+  /*padding: 10px;*/
+  width: 80%;
+  border: 6px solid transparent;
+  border-image:url(peter_puppet.png) 15 stretch;
+  border-color: #09234c;
+  /*background-color: #fff;
+  color: #fff;*/
+}
+
+div.col {
+  color: #fff!important;
+}
+
+img#funke {
+  width: 30%;
+}
+
+img#sanity {
+  width: 46%;
+}
+
+img#brutalist {
+  width: 30%;
+}
+
+img#stuart {
+  width: 30%;
+}
+
+h3.logo-font {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  padding-right: 40px;
+}
+
+/* -------------------------------- Contact Page */
+
+h2#contactTitle.logo-font {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*#phoneicon {
+  color: #fff !important;
+}*/
+
+ #fullname {
+   border-color:#4c0909;
+   margin-bottom: 20px;
+ }
+
+ #email {
+   margin-bottom: 20px;
+ }
+
+ #projectsummary {
+   margin-bottom: 20px;
+ }
+
+ form {
+   display: inline-block;
+   width: 50%;
+ }
+
+ button.btn.btn-secondary {
+   background-color: #09234c;
+ }
+
+ i#facebookcontact.fab.fa-facebook.text-white::before {
+   font-size: 2.5em;
+ }
+
+ i#instacontact.fab.fa-instagram.text-white::before {
+   font-size: 2.5em;
+ }
+ 
+ p {
+   padding-top: 20px;
+ }
+
+ i {
+   padding-left: 10px;
+ }
+
+/* -------------------------------- Footer */
+
+#footer {
+  background-color: #09234c !important;
+}
+
+i.fab.fa-facebook.text-white::before {
+  padding: 10px;
+}
+
+h1 {
+  padding: 30px;
+}
+
+/* ------------------------------ Footer contiuned - Tidy code */
+
+.footer {
+  background-color: #549dfa !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly Larger Container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width:80%;
+  }
+}
+
+/* -------------------------------- background image needs to change on smaller devices */
+
+@media (max-width: 990px) {
+  body {
+      background-image: url('/media/DinoWalkFront.gif');
+      background-size: cover;
+  }
+}
+
+/* Fixed top Nav only on Medium and up */
+@media (min-width: 992px) {
+  .fixed-top-desktop-only {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .header-container {
+    padding-top: 164px;
+  }
+}
+
