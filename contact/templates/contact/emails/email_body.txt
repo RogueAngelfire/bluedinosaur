@@ -6,7 +6,7 @@ Enquiry:
 
 {{ form.projectsummary }}
 
-Thank you for your enquirey!
+Thank you for your enquiry!
 
 Sincerely,
 
