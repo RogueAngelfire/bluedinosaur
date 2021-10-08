@@ -195,7 +195,7 @@ if 'USE_AWS' in os.environ:
 
 # if 'DEVELOPMENT' in os.environ:
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'bluedinosauranimation@example.com'
+DEFAULT_FROM_EMAIL = 'bluedinosauranimation@gmail.com'
 if 'HEROKU_SERVER' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True

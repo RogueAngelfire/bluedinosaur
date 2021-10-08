@@ -6,7 +6,7 @@ from django.core.mail import send_mail
 from django.conf import settings
 
 # Create your views here.
-def _send_confirmation_email(form, cust_email):
+def _send_confirmation_email(form):
     """
         Send the user a confirmation email
     """
@@ -26,7 +26,7 @@ def _send_confirmation_email(form, cust_email):
         subject,
         body,
         settings.DEFAULT_FROM_EMAIL,
-        [cust_email]
+        [form.email]
     )
 
 def contact(request):
@@ -41,7 +41,7 @@ def contact(request):
         form = ContactMessagesForm(request.POST)
         if form.is_valid():
             messages_form = form.save()
-            cust_email = messages_form.email
-            _send_confirmation_email(messages_form, cust_email)
+            #cust_email = messages_form.email
+            _send_confirmation_email(messages_form)
     return render(request, 'contact/contact.html')
     #return HttpResponse('this view is working')

@@ -1,1 +1,1 @@
-Blue Dinosaur Recieved email from {{ form.name }}. 
+Blue Dinosaur Recieved a message from {{ form.name }}. 
