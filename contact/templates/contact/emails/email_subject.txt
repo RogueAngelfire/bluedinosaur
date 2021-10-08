@@ -1,1 +1,1 @@
-Boutique Ado Confirmation for Order Number 
+Blue Dinosaur Recieved email from {{ form.name }}. 

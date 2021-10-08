@@ -1,10 +1,10 @@
 Hello 
 
-This is a confirmation of your order at Boutique Ado. Your order information is below:
-
-
+{{ form.name }}
+{{ form.email }}
+{{ form.projectsummary }}
 Thank you for your enquirey!
 
 Sincerely,
 
-Boutique Ado
+Blue Dinosaur
