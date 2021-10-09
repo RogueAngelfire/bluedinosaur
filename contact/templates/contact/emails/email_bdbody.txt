@@ -1,0 +1,11 @@
+Hi Peter at Blue Dinosaur Animation here is an web form request from the Website
+
+email {{ form.email }}
+
+Message Enquiry:
+
+{{ form.projectsummary }}
+
+From,
+
+{{ form.name }}
