@@ -32,7 +32,7 @@ else:
 # DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = True
 
-ALLOWED_HOSTS = ['blue-dinosaur-animation.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['bluedinosauranimation.co.uk', 'www.bluedinosauranimation.co.uk', 'blue-dinosaur-animation.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
