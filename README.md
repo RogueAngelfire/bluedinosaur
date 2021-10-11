@@ -28,22 +28,22 @@ Noible changes I made was rather than have the logo transform I made the mouth o
 which is a lot better than I set out to do.
 
 Home Page
-![Wireframe Home Menu](bluedinosaur/media/wireframes/blue1.png)
+![Wireframe Home Menu](/media/wireframes/blue1.png)
 
 About
-![Wireframe Home Menu](bluedinosaur/media/wireframes/blue2.png)
+![Wireframe Home Menu](/media/wireframes/blue2.png)
 
 Portfolio
-![Wireframe Home Menu](bluedinosaur/media/wireframes/blue3.png)
+![Wireframe Home Menu](/media/wireframes/blue3.png)
 Due to the limit in content the decision was made to consolodate the
 Portfolio and service pages to feature on the about page only until
 the time to expand with the clients additonal projects.
 
 Services
-![Wireframe Home Menu](bluedinosaur/media/wireframes/blue4.png)
+![Wireframe Home Menu](/media/wireframes/blue4.png)
 
 Contact
-![Wireframe Home Menu](bluedinosaur/media/wireframes/blue5.png)
+![Wireframe Home Menu](/media/wireframes/blue5.png)
 Telephone number was dropped in the interest of establishing contact
 client to client first. Blue Dinosaur have their number displayed therefore 
 a client can contact Blue Dinosaur for ugent matter.
