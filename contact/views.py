@@ -4,6 +4,7 @@ from .forms import ContactMessagesForm
 from django.template.loader import render_to_string
 from django.core.mail import send_mail
 from django.conf import settings
+from django.contrib import messages
 
 # Create your views here.
 def _send_confirmation_email(form):
@@ -40,6 +41,7 @@ def _send_bdinosaur_email(form):
     print('I am printing form data on line number 40 below')
     print(form)
     print(_send_bdinosaur_email)
+    print(messages.success)
     subject = render_to_string(
         'contact/emails/email_subject.txt',
         {'form': form}
@@ -71,6 +73,8 @@ def contact(request):
         form = ContactMessagesForm(request.POST)
         if form.is_valid():
             messages_form = form.save()
+            #Below is Toast information that doesn't work.
+            messages.success(request, f'Blue Dinosaur Animation will get back to you soon!')
             #cust_email = messages_form.email
             _send_confirmation_email(messages_form)
             _send_bdinosaur_email(messages_form)

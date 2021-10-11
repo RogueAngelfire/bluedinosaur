@@ -82,8 +82,19 @@
       </div>
     </header>
     </section>
-    {% if message %}
-    <div class="message-container"></div>
+
+    {% if messages %}
+      <div class="message-container" id="toastsuccess" style="position: absolute!important;
+      top: 50%!important;
+      left: 50%!important;
+      color: black;
+      background-color: #09234c! important;
+      transform: translate(-50%, 0px)!important;
+      z-index: 9999!important;">
+        {% for message in messages %}
+          {% include 'includes/toasts/toast_success.html' %}
+        {% endfor %}
+      </div>
     {% endif %}
 
     {% block page_header %}
@@ -97,6 +108,9 @@
     </footer>
 
     {% block postloadjs %}
+    <script type="text/javascript">
+      $('.toast').toast('show');
+    </script>
     {% endblock %}
     
   </body>
