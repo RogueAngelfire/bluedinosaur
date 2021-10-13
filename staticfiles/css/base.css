@@ -293,7 +293,7 @@ h1 {
   padding: 30px;
 }
 
-/* ------------------------------ Footer contiuned - Tidy code */
+/* ------------------------------ Footer contiuned */
 
 .footer {
   background-color: #549dfa !important;
@@ -332,3 +332,8 @@ h1 {
   }
 }
 
+@media (min-width:415px) {
+  h2#contactTitle.logo-font {
+   margin-top: 75px;
+  }
+}

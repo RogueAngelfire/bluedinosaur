@@ -192,7 +192,7 @@ h3.logo-font {
 
 h2#contactTitle.logo-font {
   color: #fff;
-  padding-top: 30px;
+  padding-top: 110px;
   padding-bottom: 20px;
 }
 
@@ -278,6 +278,14 @@ footer {
 }
 
 /* ----------------------------- Issues need to fix added 13/10/21 */
+
+
+/*@media screen and (max-width: 415px) {
+  .logo-font {
+    margin-top: 0;
+  }
+}*/
+
 @media screen and (max-width: 415px) {
   h3 {
     font-size: 14px;
@@ -295,6 +303,12 @@ footer {
       width: 100%;
   }
 }
+
+/*@media screen and (max-width: 415px) {
+  i {
+    font-size: 1.5em;
+  }
+}*/
 
 /* ----------------------------- End */
 
