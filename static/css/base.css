@@ -277,14 +277,19 @@ footer {
   }
 }
 
-/* ----------------------------- Issues need to fix added 13/10/21 */
+/* Losing titles on large screens ----------------------------- Issues need to fix added 13/10/21 */
 
-
-/*@media screen and (max-width: 415px) {
-  .logo-font {
-    margin-top: 0;
+@media screen and (min-width: 2018px) {
+  h2#aboutTitle.logo-font {
+    margin-top: 200;
   }
-}*/
+}
+
+@media screen and (min-width: 2018px) {
+  h2#contactTitle.logo-font {
+    margin-top: 200;
+  }
+}
 
 @media screen and (max-width: 415px) {
   h3 {
@@ -315,6 +320,12 @@ footer {
 @media screen and (max-width: 415px) {
   #logo-text {
     padding-top: 130px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  div.col.text-center {
+    font-size: 8px;
   }
 }
 
