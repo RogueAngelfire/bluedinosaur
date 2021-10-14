@@ -337,7 +337,7 @@ footer {
 
 /* -------------------------------- background image needs to change on smaller devices */
 
-@media (max-width: 990px) {
+@media (max-width: 1025px) {
   body {
       background-image: url('/media/DinoWalkFront.gif');
       background-size: cover;
