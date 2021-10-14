@@ -309,11 +309,17 @@ footer {
   }
 }
 
-/*@media screen and (max-width: 415px) {
-  i {
-    font-size: 1.5em;
+@media screen and (min-width: 2025px) {
+  h2#contactTitle.logo-font {
+    padding-top: 225px;
   }
-}*/
+}
+
+@media screen and (min-width: 2025px) {
+  h2#aboutTitle.logo-font {
+    padding-top: 225px;
+  }
+}
 
 /* ----------------------------- End */
 
