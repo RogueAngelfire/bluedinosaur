@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'about',
     'contact',
     'embed_video',
+    'captcha',
 
      # other
      'storages',
@@ -206,3 +207,9 @@ if 'HEROKU_SERVER' in os.environ:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+
+# Recapcha
+
+RECAPTCHA_PUBLIC_KEY = '6LcSvjYdAAAAAFLalIEjSuTVzarQLTTqjFm4Mpj1'
+RECAPTCHA_PRIVATE_KEY = '6LcSvjYdAAAAAOTg_wNOKnVfjO5Ta_FbyhaMVWFr'
